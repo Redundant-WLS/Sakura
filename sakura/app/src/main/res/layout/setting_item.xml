@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+	android:layout_width="fill_parent" 
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:layout_height="60dip" 
+	android:paddingBottom="10dip" 
+	android:paddingLeft="12dip"
+	android:background="@drawable/selector_single"
+	android:paddingRight="12dip">
+<TextView 
+    android:layout_height="wrap_content" 
+    android:textSize="18sp" 
+    android:textColor="#000"
+    android:paddingTop="15dip"
+    android:gravity="center_vertical"
+    android:layout_width="fill_parent" 
+    android:id="@+id/setting_listview_itemtext"
+    />
+</RelativeLayout>

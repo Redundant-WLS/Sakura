@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">  
+<LinearLayout   
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">     
+        <EditText
+               android:id="@+id/year"
+               android:layout_width="90dip"
+               android:layout_height="wrap_content"
+               android:textSize="18sp"
+               android:textColor="#000"
+               android:inputType="number"/>  
+        <EditText
+               android:id="@+id/month"
+               android:layout_width="90dip"
+               android:layout_height="wrap_content"
+               android:textSize="18sp"
+               android:textColor="#000"
+               android:inputType="number"/>         
+        <EditText
+               android:id="@+id/day"
+               android:layout_width="90dip"
+               android:layout_height="wrap_content"
+               android:textSize="18sp"
+               android:textColor="#000"
+               android:inputType="number"/> 
+</LinearLayout>
+         <Button
+               android:id="@+id/setdate"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="100dip"
+               android:text="确定"/>
+ </LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:background="@drawable/content_bg"
+    android:layout_height="fill_parent">  
+
+    <TextView
+    android:id="@+id/type_title"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textColor="#000"/> 
+    
+
+     <ListView android:layout_weight="15" 
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content" 
+          android:id="@+id/DeuList"
+          />   
+
+     <LinearLayout
+           android:layout_weight="1" 
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+
+          <Button
+          android:id="@+id/return_main"
+          android:layout_width="150dip"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="10dip"
+          android:text="@string/return_main"
+          android:visibility="visible"/>
+
+          <Button
+          android:id="@+id/addnew"
+          android:layout_width="150dip"
+          android:layout_height="wrap_content"
+          android:text="@string/addnew"
+          android:visibility="visible"/>
+                  
+      </LinearLayout>
+</LinearLayout>

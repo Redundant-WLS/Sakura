@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Main!</string>
+    <string name="app_name">NewTime</string>
+    <string name="action_list">未处理事件</string>
+    <string name="add_action">增添事件</string>
+    <string name="done_action">历史记录</string>
+    <string name="calendar">日历</string>
+    <string name="setting">设置</string>
+    <string name="ok">确认</string>
+    <string name="cancel">返回</string>
+    <string name="deulist">未处理事件</string>
+    <string name="detail">内容</string>
+    <string name="time">时间</string>
+    <string name="remidtype">提醒方式</string>
+    <string name="delete">删除</string>
+    <string name="typeshow">类别显示</string>
+    <string name="edit">编辑</string>
+    <string name="return_main">返回主界面</string>
+    <string name="addnew">添加</string>
+    <string name="title">主题</string>
+    <string name="details">详细描述</string>
+    <string name="date">日期</string>
+    <string name="schedual">课程表</string>     
+    <string name="warn">警告</string>
+    <string name="confirm_delete">确定要删除吗?</string>
+    <string name="delete_success">删除成功</string>
+    <string name="classname">课程名称</string>     
+    <string name="classtime">上课时间</string>   
+    <string name="classroom">上课教室</string>  
+    <string name="classday">星期</string>   
+    <string name="classteacher">任课老师</string>  
+    <string name="startend">开始时间    —— 结束时间</string> 
+    <string name="operate">操作</string>  
+    <string name="history">历史记录</string>    
+</resources>

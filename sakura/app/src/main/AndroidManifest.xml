@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.example.administrator.myapplication"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        
+        <activity android:name=".Main"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".Add"></activity>
+        
+        <activity android:name=".DeuList"> </activity>
+        
+        <activity android:name=".DeuTypeList"/>
+        
+        <activity android:name=".Schedual" />
+        
+        <activity android:name=".Setting" />
+            
+        <activity android:name=".Edit"></activity>
+        <activity android:name=".History" android:label="@string/history"></activity>
+        <activity android:name=".Alarmalert"
+            android:excludeFromRecents="true" android:theme="@android:style/Theme.Dialog"
+			android:launchMode="singleTask" android:taskAffinity=":AlarmAlert"
+			android:screenOrientation="nosensor"
+			android:configChanges="orientation|keyboardHidden|keyboard|navigation"/>
+        <activity android:name=".Alarmalert2"
+		    android:excludeFromRecents="true" android:theme="@android:style/Theme.Dialog"
+			android:launchMode="singleTask" android:taskAffinity=":AlarmAlert"
+			android:screenOrientation="nosensor"
+			android:configChanges="orientation|keyboardHidden|keyboard|navigation" />	
+			                <!-- 注册receiver CallAlarm -->
+               
+                <receiver android:name="CallAlarm1">            
+                     <intent-filter>                 <action android:name="editAction"></action>        </intent-filter>       
+                </receiver>       
+                <receiver android:name="CallAlarm">             
+                    <intent-filter>                 <action android:name="addAction"></action>             </intent-filter>  
+                </receiver> 
+                <receiver android:name="CallAlarm2">             
+                    <intent-filter>                 <action android:name="addAction"></action>             </intent-filter>  
+                </receiver> 
+
+    </application>
+      <uses-permission android:name="android.permission.VIBRATE"></uses-permission>  
+</manifest> 

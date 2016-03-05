@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="planets">
+        <item>学习</item>
+        <item>学生工作</item>
+        <item>社团活动</item>
+        <item>体育锻炼</item>
+        <item>交友</item>
+        <item>其他</item>
+    </string-array>
+   
+    <string-array name="model">
+        <item>振动</item>
+        <item>铃声</item>
+        <item>振动和铃声</item>
+    </string-array>
+   
+    <string-array name="week">
+        <item>星期一</item>
+        <item>星期二</item>
+        <item>星期三</item>
+        <item>星期四</item>
+        <item>星期五</item>
+        <item>星期六</item>
+        <item>星期日</item>
+    </string-array>
+    <string-array name="oper_items">
+        <item>编辑</item>
+        <item>删除</item>
+        <item>设定闹钟</item>
+    </string-array>
+</resources>

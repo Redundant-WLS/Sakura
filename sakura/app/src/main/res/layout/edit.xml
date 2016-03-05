@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:background="@drawable/content_bg"
+    android:layout_height="fill_parent">
+    <LinearLayout 
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <EditText
+               android:id="@+id/title"
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:hint="@string/title"
+               android:textSize="18sp"
+               android:textColor="#000"/>  
+        <EditText
+               android:id="@+id/detail"
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:hint="@string/details"
+               android:inputType="textMultiLine"
+               android:gravity="left|top"
+               android:minLines="2"
+               android:textSize="18sp"
+               android:textColor="#000"/>         
+      </LinearLayout>
+      
+     <LinearLayout
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+        <TextView android:id="@+id/spinnerText01"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"/>
+        <Spinner android:id="@+id/spinner01"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"/>
+      </LinearLayout>
+      
+     <LinearLayout
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+        <TextView android:id="@+id/Text02"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:hint="@string/date"/>
+        "
+      <LinearLayout
+          android:orientation="horizontal"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content">
+          <Button
+          android:id="@+id/date_btn"
+          android:layout_width="160dip"
+          android:layout_height="wrap_content"
+          android:visibility="visible"/>
+          <Button
+          android:id="@+id/time_btn"
+          android:layout_width="160dip"
+          android:layout_height="wrap_content"
+          android:visibility="visible"/>
+        </LinearLayout>
+        
+      </LinearLayout>
+      
+      <LinearLayout
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+        <TextView android:id="@+id/spinnerText02"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"/>
+        <Spinner android:id="@+id/spinner02"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"/>
+      </LinearLayout>
+         
+    <LinearLayout
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+
+          <Button
+          android:id="@+id/save"
+          android:layout_width="80dip"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="40dip"
+          android:layout_gravity="bottom"
+          android:visibility="visible"/>
+
+          <Button
+          android:id="@+id/delete"
+          android:layout_width="80dip"
+          android:layout_height="wrap_content"
+          android:text="@string/delete"
+          android:visibility="visible"/>
+                   
+          <Button
+          android:id="@+id/cancel"
+          android:layout_width="80dip"
+          android:layout_height="wrap_content"
+          android:text="@string/cancel"
+          android:visibility="visible"/>
+          
+      </LinearLayout>
+          
+</LinearLayout>

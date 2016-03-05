@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:background="@drawable/content_bg"
+    android:layout_height="fill_parent">  
+
+     <LinearLayout
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:layout_weight="19">
+    <TextView
+    android:id="@+id/type_title"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="130dip"
+    android:text="@string/schedual"
+    android:textColor="#000"/> 
+    
+    <Spinner android:id="@+id/schedual_spinner"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"/>
+             
+    <ListView android:layout_weight="15" 
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content" 
+          android:id="@+id/schedual_deuList"
+          />   
+     </LinearLayout>
+     
+     <Button
+          android:id="@+id/addclass"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:text="@string/addnew"
+          android:visibility="visible"
+          android:layout_marginBottom="25dip"
+          android:layout_weight="1"/>
+
+</LinearLayout>
